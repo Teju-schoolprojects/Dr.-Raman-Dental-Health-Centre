@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Raman Dental Health Centre | Dentist in Ranipet, Tamil Nadu</title>
+  <meta name="description" content="Dr. Raman Dental Health Centre in Navalpur, Ranipet — expert dental care by Dr. Sunil P M (MDS). Modern equipment, child-friendly clinic, rated 4.4★. Open Mon–Sun 10am–8pm." />
+  <meta name="keywords" content="dental clinic Ranipet, dentist Navalpur, Dr Sunil PM, dental surgeon Tamil Nadu, teeth treatment Ranipet" />
+  <meta property="og:title" content="Dr. Raman Dental Health Centre" />
+  <meta property="og:description" content="Expert dental care in Ranipet. Rated 4.4★ with modern equipment and child-friendly treatment rooms." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner container">
+      <a href="#hero" class="logo" aria-label="Dr. Raman Dental Health Centre home">
+        <div class="logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="20" cy="20" r="20" fill="url(#logoGrad)"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40">
+                <stop offset="0%" stop-color="#0ea5e9"/>
+                <stop offset="100%" stop-color="#0369a1"/>
+              </linearGradient>
+            </defs>
+            <path d="M14 10c-1.5 0-4 1.5-4 5 0 2.5 1 4.5 2.5 6l1 8c0 .5.5 1 1 1h1.5c.5 0 1-.5 1-1l.5-5h5l.5 5c0 .5.5 1 1 1H25c.5 0 1-.5 1-1l1-8c1.5-1.5 2.5-3.5 2.5-6 0-3.5-2.5-5-4-5-1 0-2 .5-2.5 1l-2 .5-2-.5C18.5 10.5 17.5 10 16 10h-2z" fill="white"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Dr. Raman</span>
+          <span class="logo-sub">Dental Health Centre</span>
+        </div>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#doctor" class="nav-link">Our Doctor</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-cta" id="navBookBtn">Book Appointment</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero" class="hero" aria-label="Hero section">
+    <!-- Video Background -->
+    <div class="hero-video-wrap" aria-hidden="true">
+      <video
+        id="heroBgVideo"
+        class="hero-video"
+        src="Generate_a_vedio_for_this_imag (7).mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+      ></video>
+      <div class="hero-video-overlay"></div>
+    </div>
+
+    <!-- Keep animated shapes on top for depth -->
+    <div class="hero-bg-shapes" aria-hidden="true">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Open Now &bull; Mon&ndash;Sun 10am&ndash;8pm</span>
+      </div>
+
+      <h1 class="hero-title">
+        Your Smile,<br/>
+        <em>Our Passion</em>
+      </h1>
+      <p class="hero-sub">
+        Comprehensive dental care with state-of-the-art equipment at<br/>
+        <strong>Dr. Raman Dental Health Centre</strong>, Navalpur, Ranipet.
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">4.4</span>
+          <div class="stars" aria-label="4.4 out of 5 stars">&#9733;&#9733;&#9733;&#9733;<span class="half-star">&#9733;</span></div>
+          <span class="stat-label">34 Reviews</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Expert Services</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">10hr</span>
+          <span class="stat-label">Daily Availability</span>
+        </div>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary" id="heroBookBtn">Book Appointment</a>
+        <a href="#about" class="btn btn-ghost">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Floating dental card -->
+    <div class="hero-float-card" aria-hidden="true">
+      <div class="float-icon">&#129463;</div>
+      <div class="float-info">
+        <span class="float-title">Child Friendly</span>
+        <span class="float-sub">Dedicated pediatric room</span>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section about-section" aria-labelledby="aboutHeading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who We Are</span>
+        <h2 id="aboutHeading" class="section-title">A Clinic Built on <em>Trust &amp; Care</em></h2>
+        <p class="section-desc">Dr. Raman Dental Health Centre has been serving the Ranipet community with top-quality dental care, modern facilities, and a compassionate approach to patient well-being.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="about-icon">&#127973;</div>
+          <h3>Modern Facility</h3>
+          <p>Equipped with the latest dental technology to ensure precise, comfortable, and efficient treatment for every patient.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-icon">&#128118;</div>
+          <h3>Child-Friendly Environment</h3>
+          <p>Dedicated pediatric dental area with colorful decals and child-sized chairs to make young patients feel at ease.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-icon">&#128176;</div>
+          <h3>Affordable Care</h3>
+          <p>Excellent patient care and treatment with modern equipment, all at reasonable and transparent pricing.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-icon">&#128197;</div>
+          <h3>Open 7 Days a Week</h3>
+          <p>Available every day from 10 AM to 8 PM, ensuring you can always access dental care when you need it most.</p>
+        </div>
+      </div>
+
+      <div class="about-rating-banner reveal">
+        <div class="rating-big">
+          <span class="rating-number">4.4</span>
+          <div>
+            <div class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            <span class="rating-count">Based on 34 patient reviews</span>
+          </div>
+        </div>
+        <div class="rating-divider"></div>
+        <p class="rating-quote">"The dental clinic is well equipped. Had a very good experience." &mdash; Suma Devi</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DOCTOR ========== -->
+  <section id="doctor" class="section doctor-section" aria-labelledby="doctorHeading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Meet the Expert</span>
+        <h2 id="doctorHeading" class="section-title">Our <em>Lead Dentist</em></h2>
+      </div>
+
+      <div class="doctor-card reveal">
+        <div class="doctor-avatar" aria-hidden="true">
+          <div class="avatar-ring"></div>
+          <div class="avatar-inner">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="50" cy="38" r="22" fill="url(#doctorGrad)"/>
+              <ellipse cx="50" cy="85" rx="32" ry="20" fill="url(#doctorGrad)"/>
+              <defs>
+                <linearGradient id="doctorGrad" x1="0" y1="0" x2="100" y2="100">
+                  <stop offset="0%" stop-color="#0ea5e9"/>
+                  <stop offset="100%" stop-color="#0369a1"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+
+        <div class="doctor-info">
+          <div class="doctor-name-row">
+            <h3 class="doctor-name">Dr. Sunil P M</h3>
+            <span class="doctor-rating-badge">&#9733; 4.4</span>
+          </div>
+          <span class="doctor-specialization">Dentist (MDS, PhD)</span>
+
+          <div class="doctor-quals">
+            <div class="qual-item">
+              <div class="qual-icon">&#127891;</div>
+              <div>
+                <span class="qual-degree">MDS</span>
+                <span class="qual-detail">Dr. MGR Medical University &middot; 1996</span>
+              </div>
+            </div>
+            <div class="qual-item">
+              <div class="qual-icon">&#128300;</div>
+              <div>
+                <span class="qual-degree">PhD</span>
+                <span class="qual-detail">Annamalai University &middot; 2009</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="doctor-badges">
+            <span class="dbadge">Oral Surgery</span>
+            <span class="dbadge">Periodontics</span>
+            <span class="dbadge">Pediatric Dentistry</span>
+            <span class="dbadge">Cosmetic Dentistry</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="section services-section" aria-labelledby="servicesHeading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 id="servicesHeading" class="section-title">Our <em>Dental Services</em></h2>
+        <p class="section-desc">Comprehensive oral healthcare delivered with precision and compassion.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal" id="serviceCard1">
+          <div class="service-img-wrap">
+            <img src="img_general_dentistry.jpg" alt="General Dentistry Tooth" loading="lazy" />
+          </div>
+          <div class="service-icon-wrap">
+            <span class="service-icon">&#129463;</span>
+          </div>
+          <h3>General Dentistry</h3>
+          <p>Routine check-ups, cleanings, fillings, and preventive care to maintain your oral health and bright smile.</p>
+          <ul class="service-list">
+            <li>Dental check-ups &amp; X-rays</li>
+            <li>Teeth cleaning &amp; scaling</li>
+            <li>Cavity fillings</li>
+            <li>Tooth extractions</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal featured-service" id="serviceCard2">
+          <div class="featured-badge">Most Popular</div>
+          <div class="service-img-wrap">
+            <img src="img_dental_surgery.jpg" alt="Dental Surgery Crowns" loading="lazy" />
+          </div>
+          <div class="service-icon-wrap">
+            <span class="service-icon">&#128300;</span>
+          </div>
+          <h3>Dental Surgery</h3>
+          <p>Expert surgical procedures performed by our qualified dental surgeon with modern, pain-minimising techniques.</p>
+          <ul class="service-list">
+            <li>Wisdom tooth removal</li>
+            <li>Root canal treatment</li>
+            <li>Dental implants</li>
+            <li>Gum surgery</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal" id="serviceCard3">
+          <div class="service-img-wrap">
+            <img src="img_cosmetic_dentistry.jpg" alt="Cosmetic Dentistry Before and After Teeth Whitening" loading="lazy" />
+          </div>
+          <div class="service-icon-wrap">
+            <span class="service-icon">&#10024;</span>
+          </div>
+          <h3>Cosmetic Dentistry</h3>
+          <p>Transform your smile with advanced cosmetic treatments designed to boost your confidence and appearance.</p>
+          <ul class="service-list">
+            <li>Teeth whitening</li>
+            <li>Veneers &amp; crowns</li>
+            <li>Smile makeover</li>
+            <li>Braces &amp; aligners</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal" id="serviceCard4">
+          <div class="service-img-wrap">
+            <img src="img_pediatric_dentistry.jpg" alt="Pediatric Dentistry Tooth Care" loading="lazy" />
+          </div>
+          <div class="service-icon-wrap">
+            <span class="service-icon">&#128106;</span>
+          </div>
+          <h3>Pediatric Dentistry</h3>
+          <p>Gentle, child-friendly dental care in our specially designed pediatric room with fun, calming decor.</p>
+          <ul class="service-list">
+            <li>Kids' check-ups</li>
+            <li>Milk tooth extraction</li>
+            <li>Fluoride treatment</li>
+            <li>Space maintainers</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal" id="serviceCard5">
+          <div class="service-img-wrap">
+            <img src="img_orthodontics.jpg" alt="Orthodontics Braces" loading="lazy" />
+          </div>
+          <div class="service-icon-wrap">
+            <span class="service-icon">&#129456;</span>
+          </div>
+          <h3>Orthodontics</h3>
+          <p>Correct misaligned teeth and bite issues with modern orthodontic solutions tailored to your needs.</p>
+          <ul class="service-list">
+            <li>Metal braces</li>
+            <li>Clear aligners</li>
+            <li>Retainers</li>
+            <li>Bite correction</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal" id="serviceCard6">
+          <div class="service-icon-wrap">
+            <span class="service-icon">&#128737;</span>
+          </div>
+          <h3>Preventive Care</h3>
+          <p>Proactive treatments to prevent dental problems before they start, keeping your teeth healthy for life.</p>
+          <ul class="service-list">
+            <li>Dental sealants</li>
+            <li>Gum disease prevention</li>
+            <li>Oral hygiene guidance</li>
+            <li>Diet counselling</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section id="gallery" class="section gallery-section" aria-labelledby="galleryHeading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Clinic</span>
+        <h2 id="galleryHeading" class="section-title">A Glimpse Inside <em>Our Clinic</em></h2>
+        <p class="section-desc">Modern facilities, warm interiors, and a welcoming environment for patients of all ages.</p>
+      </div>
+
+      <!-- Automated Side-by-Side Sliding Image Tour -->
+      <div class="tour-slider-wrapper" id="tourSliderWrapper">
+        <button class="tour-nav-btn tour-prev" id="tourPrevBtn" aria-label="Previous Slide">&#8249;</button>
+        <button class="tour-nav-btn tour-next" id="tourNextBtn" aria-label="Next Slide">&#8250;</button>
+
+        <div class="tour-carousel-viewport" id="tourViewport">
+          <div class="tour-track" id="tourTrack">
+            <div class="gallery-item tour-slide exterior" data-category="exterior">
+              <img 
+                src="https://images.jdmagicbox.com/v2/comp/ranipet/c6/9999p4172.4172.110205142026.x7c6/catalogue/dr-raman-dental-health-centre-ranipet-dentists-0irumuybmw.jpg"
+                alt="Dr. Raman Dental Health Centre facade with Tamil and English signage, tooth logo, and parked car"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="gallery-item tour-slide interior" data-category="interior">
+              <img 
+                src="https://images.jdmagicbox.com/comp/ranipet/c6/9999p4172.4172.110205142026.x7c6/catalogue/dr-raman-dental-health-centre-ranipet-ho-ranipet-dentists-sh5xya1ih9.jpg"
+                alt="Pediatric dental chair with colorful animal wall decals and child-friendly equipment"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="gallery-item tour-slide interior" data-category="interior">
+              <img 
+                src="https://images.jdmagicbox.com/comp/ranipet/c6/9999p4172.4172.110205142026.x7c6/catalogue/dr-raman-dental-health-centre-ranipet-ho-ranipet-dentists-7zfi4jp3c0.jpg"
+                alt="Dental clinic interior with red and white chairs, overhead lights, cabinets, and children's decoration"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="gallery-item tour-slide interior" data-category="interior">
+              <img 
+                src="https://images.jdmagicbox.com/comp/ranipet/c6/9999p4172.4172.110205142026.x7c6/catalogue/dr-raman-dental-health-centre-ranipet-ho-ranipet-dentists-0262z32xzm.jpg"
+                alt="Dentist and assistant working in a clinic with orange chairs and dental equipment"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="gallery-item tour-slide interior" data-category="interior">
+              <img 
+                src="https://images.jdmagicbox.com/comp/ranipet/c6/9999p4172.4172.110205142026.x7c6/catalogue/dr-raman-dental-health-centre-ranipet-ho-ranipet-dentists-156njxspcd.jpg"
+                alt="Dental clinic interior with two staff in blue uniforms standing near treatment chairs and equipment"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="tour-dots" id="tourDots"></div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" hidden>
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&#10005;</button>
+      <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#8249;</button>
+      <button class="lightbox-next" id="lightboxNext" aria-label="Next image">&#8250;</button>
+      <div class="lightbox-inner">
+        <img id="lightboxImg" src="" alt="" />
+        <span id="lightboxCaption" class="lightbox-caption"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOURS ========== -->
+  <section id="hours" class="section hours-section" aria-labelledby="hoursHeading">
+    <div class="container hours-inner">
+      <div class="hours-text reveal">
+        <span class="section-tag">Availability</span>
+        <h2 id="hoursHeading" class="section-title">Working <em>Hours</em></h2>
+        <p>We're open every day of the week. Walk-ins are welcome, or book an appointment for your convenience.</p>
+        <div class="open-badge">
+          <span class="open-dot"></span>
+          Currently Open
+        </div>
+      </div>
+
+      <div class="hours-table-wrap reveal">
+        <table class="hours-table" aria-label="Clinic working hours">
+          <thead>
+            <tr>
+              <th scope="col">Day</th>
+              <th scope="col">Opening</th>
+              <th scope="col">Closing</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody id="hoursTableBody">
+            <tr><td>Monday</td><td>10:00 AM</td><td>8:00 PM</td><td><span class="status open">Open</span></td></tr>
+            <tr><td>Tuesday</td><td>10:00 AM</td><td>8:00 PM</td><td><span class="status open">Open</span></td></tr>
+            <tr><td>Wednesday</td><td>10:00 AM</td><td>8:00 PM</td><td><span class="status open">Open</span></td></tr>
+            <tr><td>Thursday</td><td>10:00 AM</td><td>8:00 PM</td><td><span class="status open">Open</span></td></tr>
+            <tr><td>Friday</td><td>10:00 AM</td><td>8:00 PM</td><td><span class="status open">Open</span></td></tr>
+            <tr><td>Saturday</td><td>10:00 AM</td><td>8:00 PM</td><td><span class="status open">Open</span></td></tr>
+            <tr><td>Sunday</td><td>10:00 AM</td><td>8:00 PM</td><td><span class="status open">Open</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REVIEWS ========== -->
+  <section id="reviews" class="section reviews-section" aria-labelledby="reviewsHeading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Patient Voices</span>
+        <h2 id="reviewsHeading" class="section-title">What Our Patients <em>Say</em></h2>
+      </div>
+
+      <div class="reviews-summary reveal">
+        <div class="reviews-score">
+          <span class="score-num">4.4</span>
+          <div class="score-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <span class="score-total">34 total reviews</span>
+        </div>
+        <div class="score-bars">
+          <div class="bar-row"><span>5&#9733;</span><div class="bar-track"><div class="bar-fill" data-width="75"></div></div><span>75%</span></div>
+          <div class="bar-row"><span>4&#9733;</span><div class="bar-track"><div class="bar-fill" data-width="15"></div></div><span>15%</span></div>
+          <div class="bar-row"><span>3&#9733;</span><div class="bar-track"><div class="bar-fill" data-width="7"></div></div><span>7%</span></div>
+          <div class="bar-row"><span>2&#9733;</span><div class="bar-track"><div class="bar-fill" data-width="2"></div></div><span>2%</span></div>
+          <div class="bar-row"><span>1&#9733;</span><div class="bar-track"><div class="bar-fill" data-width="1"></div></div><span>1%</span></div>
+        </div>
+      </div>
+
+      <div class="reviews-grid">
+        <article class="review-card reveal" id="review1">
+          <div class="review-header">
+            <div class="reviewer-avatar" aria-hidden="true">S</div>
+            <div>
+              <strong class="reviewer-name">Suma Devi</strong>
+              <span class="review-date">7th July, 2021</span>
+            </div>
+            <div class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          </div>
+          <p class="review-text">"The dental clinic is well equipped. Had a very good experience."</p>
+          <div class="review-source">via JustDial</div>
+        </article>
+
+        <article class="review-card reveal" id="review2">
+          <div class="review-header">
+            <div class="reviewer-avatar" aria-hidden="true">V</div>
+            <div>
+              <strong class="reviewer-name">Vignesh</strong>
+              <span class="review-date">7th July, 2021</span>
+            </div>
+            <div class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          </div>
+          <p class="review-text">"Excellent patient care and treatment with modern equipment at a reasonable rate."</p>
+          <div class="review-source">via JustDial</div>
+        </article>
+
+        <article class="review-card reveal" id="review3">
+          <div class="review-header">
+            <div class="reviewer-avatar" aria-hidden="true">A</div>
+            <div>
+              <strong class="reviewer-name">Anoop Murali</strong>
+              <span class="review-date">7th July, 2021</span>
+            </div>
+            <div class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          </div>
+          <p class="review-text">"Excellent Service"</p>
+          <div class="review-source">via JustDial</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section contact-section" aria-labelledby="contactHeading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 id="contactHeading" class="section-title">Visit <em>Us</em></h2>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info Panel -->
+        <div class="contact-info reveal">
+          <div class="contact-item" id="contactAddress">
+            <div class="contact-icon">&#128205;</div>
+            <div>
+              <strong>Address</strong>
+              <p>No 28-A, Navalpur,<br/>Ranipet, Tamil Nadu &ndash; 632401</p>
+            </div>
+          </div>
+
+          <div class="contact-item" id="contactHours">
+            <div class="contact-icon">&#128336;</div>
+            <div>
+              <strong>Working Hours</strong>
+              <p>Monday &ndash; Sunday<br/>10:00 AM &ndash; 8:00 PM</p>
+            </div>
+          </div>
+
+          <div class="contact-item" id="contactServices">
+            <div class="contact-icon">&#129463;</div>
+            <div>
+              <strong>Services</strong>
+              <p>Dentists &middot; Dental Clinics<br/>Dental Surgeons</p>
+            </div>
+          </div>
+
+          <div class="contact-item" id="contactRating">
+            <div class="contact-icon">&#11088;</div>
+            <div>
+              <strong>Patient Rating</strong>
+              <p>4.4 / 5.0 &middot; 34 Reviews<br/>Source: JustDial</p>
+            </div>
+          </div>
+
+          <!-- Compact Map Card -->
+          <div class="compact-map-wrap" id="mapSection">
+            <iframe
+              title="Dr. Raman Dental Health Centre location on Google Maps"
+              src="https://maps.google.com/maps?q=12.928941,79.338585&hl=en&z=16&output=embed"
+              width="100%"
+              height="220"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <a 
+            href="https://maps.google.com/?q=12.928941,79.338585" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="btn btn-primary btn-directions"
+            id="directionsBtn"
+            aria-label="Get directions to Dr. Raman Dental Health Centre on Google Maps"
+          >
+            &#128205; Get Directions on Google Maps
+          </a>
+        </div>
+
+        <!-- Appointment Form -->
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="appointmentForm" novalidate>
+            <h3>Book an Appointment</h3>
+            <p class="form-note">Fill in your details and we'll get back to you shortly.</p>
+
+            <div class="form-group">
+              <label for="patientName">Full Name</label>
+              <input type="text" id="patientName" name="name" placeholder="Your full name" required autocomplete="name" />
+            </div>
+
+            <div class="form-group">
+              <label for="patientPhone">Phone Number</label>
+              <input type="tel" id="patientPhone" name="phone" placeholder="+91 XXXXX XXXXX" required autocomplete="tel" />
+            </div>
+
+            <div class="form-group">
+              <label for="patientService">Service Needed</label>
+              <select id="patientService" name="service">
+                <option value="">Select a service&hellip;</option>
+                <option value="general">General Dentistry</option>
+                <option value="surgery">Dental Surgery</option>
+                <option value="cosmetic">Cosmetic Dentistry</option>
+                <option value="pediatric">Pediatric Dentistry</option>
+                <option value="orthodontics">Orthodontics</option>
+                <option value="preventive">Preventive Care</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="preferredDate">Preferred Date</label>
+              <input type="date" id="preferredDate" name="date" />
+            </div>
+
+            <div class="form-group">
+              <label for="patientMessage">Message (Optional)</label>
+              <textarea id="patientMessage" name="message" rows="3" placeholder="Describe your concern&hellip;"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="submitAppointmentBtn">Send Appointment Request</button>
+            <p class="form-disclaimer">We'll confirm your slot within 24 hours. Your information is kept confidential.</p>
+          </form>
+
+          <div class="form-success" id="formSuccess" hidden>
+            <div class="success-icon">&#9989;</div>
+            <h3>Request Sent!</h3>
+            <p>Thank you! We'll reach out to confirm your appointment soon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-icon small">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="20" cy="20" r="20" fill="url(#footerLogoGrad)"/>
+              <defs>
+                <linearGradient id="footerLogoGrad" x1="0" y1="0" x2="40" y2="40">
+                  <stop offset="0%" stop-color="#0ea5e9"/>
+                  <stop offset="100%" stop-color="#0369a1"/>
+                </linearGradient>
+              </defs>
+              <path d="M14 10c-1.5 0-4 1.5-4 5 0 2.5 1 4.5 2.5 6l1 8c0 .5.5 1 1 1h1.5c.5 0 1-.5 1-1l.5-5h5l.5 5c0 .5.5 1 1 1H25c.5 0 1-.5 1-1l1-8c1.5-1.5 2.5-3.5 2.5-6 0-3.5-2.5-5-4-5-1 0-2 .5-2.5 1l-2 .5-2-.5C18.5 10.5 17.5 10 16 10h-2z" fill="white"/>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">Dr. Raman</span>
+            <span class="logo-sub">Dental Health Centre</span>
+          </div>
+        </div>
+        <p class="footer-tagline">Your smile is our mission. Expert dental care in the heart of Ranipet, Tamil Nadu.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul role="list">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#doctor">Our Doctor</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <address>
+          <p>&#128205; No 28-A, Navalpur, Ranipet,<br/>Tamil Nadu &ndash; 632401</p>
+          <p>&#128336; Mon&ndash;Sun: 10:00 AM &ndash; 8:00 PM</p>
+          <p>&#11088; Rated 4.4/5 on JustDial</p>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 Dr. Raman Dental Health Centre. All rights reserved.</p>
+      <p>Designed with &#10084;&#65039; for better smiles in Ranipet.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" hidden>&#8593;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
