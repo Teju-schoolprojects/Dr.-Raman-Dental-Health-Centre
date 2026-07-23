@@ -221,10 +221,10 @@ em { font-style: italic; color: var(--clr-primary); }
 }
 
 .nav-link {
-  padding: 8px 12px;
+  padding: 8px 14px;
   border-radius: var(--radius-md);
-  font-size: .9rem;
-  font-weight: 500;
+  font-size: 1.05rem;
+  font-weight: 600;
   color: var(--clr-muted);
   transition: color var(--transition), background var(--transition);
 }
@@ -235,12 +235,12 @@ em { font-style: italic; color: var(--clr-primary); }
 
 .nav-cta {
   margin-left: 8px;
-  padding: 10px 20px;
+  padding: 10px 22px;
   background: linear-gradient(135deg, var(--clr-primary), var(--clr-primary-dark));
   color: #fff !important;
   border-radius: var(--radius-full);
   font-weight: 700;
-  font-size: .9rem;
+  font-size: 1rem;
   transition: var(--transition);
   box-shadow: 0 4px 16px hsla(199, 89%, 48%, .35);
 }
