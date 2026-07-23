@@ -625,6 +625,11 @@ em { font-style: italic; color: var(--clr-primary); }
   position: relative;
   overflow: hidden;
 }
+
+#doctorHeading {
+  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+}
+
 .doctor-section::before {
   content: '';
   position: absolute;
