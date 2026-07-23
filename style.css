@@ -565,7 +565,16 @@ em { font-style: italic; color: var(--clr-primary); }
 }
 .about-card:hover::before { opacity: 1; }
 
-.about-icon { font-size: 2.5rem; margin-bottom: 16px; }
+.about-icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #d4af37 0%, #fff3a8 25%, #aa771c 50%, #ffd700 75%, #8a5a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 4px 8px rgba(180, 130, 20, 0.45)) drop-shadow(0 1px 2px rgba(255, 215, 0, 0.6));
+  display: inline-block;
+}
 
 .about-card h3 {
   font-size: 1.15rem;
@@ -759,7 +768,16 @@ em { font-style: italic; color: var(--clr-primary); }
   padding: 14px 18px;
 }
 
-.qual-icon { font-size: 1.5rem; flex-shrink: 0; }
+.qual-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #d4af37 0%, #fff3a8 25%, #aa771c 50%, #ffd700 75%, #8a5a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 3px 6px rgba(180, 130, 20, 0.45));
+  display: inline-block;
+}
 
 .qual-degree {
   display: block;
@@ -864,19 +882,31 @@ em { font-style: italic; color: var(--clr-primary); }
 .service-icon-wrap {
   width: 64px;
   height: 64px;
-  background: hsla(199,89%,48%,.12);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.15), rgba(170, 119, 28, 0.08));
+  border: 1px solid rgba(212, 175, 55, 0.4);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
   transition: var(--transition);
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
 }
 .service-card:hover .service-icon-wrap {
-  background: var(--clr-primary);
+  border-color: #d4af37;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(170, 119, 28, 0.18));
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
 }
 
-.service-icon { font-size: 2rem; }
+.service-icon {
+  font-size: 2rem;
+  background: linear-gradient(135deg, #d4af37 0%, #fff3a8 25%, #aa771c 50%, #ffd700 75%, #8a5a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 3px 6px rgba(180, 130, 20, 0.5));
+  display: inline-block;
+}
 
 .service-card h3 {
   font-size: 1.2rem;
@@ -1442,7 +1472,16 @@ em { font-style: italic; color: var(--clr-primary); }
   box-shadow: var(--shadow-sm);
 }
 
-.contact-icon { font-size: 1.8rem; flex-shrink: 0; }
+.contact-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #d4af37 0%, #fff3a8 25%, #aa771c 50%, #ffd700 75%, #8a5a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 3px 6px rgba(180, 130, 20, 0.45));
+  display: inline-block;
+}
 
 .contact-item strong {
   display: block;
