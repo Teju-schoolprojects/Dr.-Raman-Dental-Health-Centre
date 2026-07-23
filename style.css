@@ -497,6 +497,10 @@ em { font-style: italic; color: var(--clr-primary); }
    ============================================================ */
 .about-section { background: var(--clr-bg2); }
 
+#aboutHeading {
+  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
