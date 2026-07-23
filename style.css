@@ -4,18 +4,18 @@
 
 /* ---- DESIGN TOKENS ---- */
 :root {
-  --clr-primary:       hsl(199, 89%, 48%);   /* vivid sky-blue */
-  --clr-primary-dark:  hsl(199, 89%, 35%);
-  --clr-primary-light: hsl(199, 89%, 92%);
-  --clr-accent:        hsl(160, 84%, 39%);    /* teal-green */
-  --clr-bg:            hsl(215, 28%, 7%);     /* near-black navy */
-  --clr-bg2:           hsl(215, 25%, 10%);
-  --clr-surface:       hsl(215, 22%, 13%);
-  --clr-surface2:      hsl(215, 20%, 17%);
-  --clr-border:        hsl(215, 20%, 22%);
-  --clr-text:          hsl(210, 40%, 96%);
-  --clr-muted:         hsl(215, 20%, 60%);
-  --clr-star:          hsl(45, 100%, 60%);
+  --clr-primary:       hsl(192, 85%, 38%);   /* deep refreshing cyan */
+  --clr-primary-dark:  hsl(192, 90%, 28%);
+  --clr-primary-light: hsl(192, 85%, 92%);
+  --clr-accent:        hsl(165, 75%, 38%);   /* fresh mint green */
+  --clr-bg:            hsl(168, 35%, 97%);   /* soft mint background */
+  --clr-bg2:           hsl(175, 40%, 94%);   /* soft cyan section tint */
+  --clr-surface:       #ffffff;              /* crisp white surface cards */
+  --clr-surface2:      hsl(175, 30%, 96%);
+  --clr-border:        hsl(175, 25%, 85%);   /* delicate mint border */
+  --clr-text:          hsl(200, 50%, 14%);   /* dark navy-cyan text */
+  --clr-muted:         hsl(200, 20%, 40%);   /* slate muted text */
+  --clr-star:          hsl(40, 100%, 48%);
 
   --font-primary: 'Outfit', sans-serif;
   --font-serif:   'Lora', serif;
@@ -26,10 +26,10 @@
   --radius-xl:  32px;
   --radius-full: 999px;
 
-  --shadow-sm:  0 2px 8px rgba(0,0,0,.35);
-  --shadow-md:  0 8px 32px rgba(0,0,0,.45);
-  --shadow-lg:  0 20px 60px rgba(0,0,0,.55);
-  --shadow-glow: 0 0 40px hsla(199, 89%, 48%, .25);
+  --shadow-sm:  0 2px 10px rgba(10, 45, 55, .08);
+  --shadow-md:  0 8px 30px rgba(10, 45, 55, .12);
+  --shadow-lg:  0 20px 60px rgba(10, 45, 55, .18);
+  --shadow-glow: 0 0 35px hsla(165, 75%, 42%, .25);
 
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --section-pad: 100px;
@@ -168,7 +168,7 @@ em { font-style: italic; color: var(--clr-primary); }
 }
 
 .navbar.scrolled {
-  background: hsla(215, 28%, 7%, .92);
+  background: hsla(168, 35%, 97%, .95);
   backdrop-filter: blur(16px);
   box-shadow: var(--shadow-sm);
   padding: 10px 0;
@@ -302,10 +302,10 @@ em { font-style: italic; color: var(--clr-primary); }
 .hero-video-overlay {
   position: absolute;
   inset: 0;
-  /* Dark gradient overlay so text stays readable */
+  /* Soft mint-navy gradient overlay so hero text stays ultra-readable */
   background:
-    linear-gradient(to right, hsla(215,28%,5%,.85) 0%, hsla(215,28%,5%,.5) 60%, hsla(215,28%,5%,.3) 100%),
-    linear-gradient(to top,   hsla(215,28%,5%,.7)  0%, transparent 50%);
+    linear-gradient(to right, hsla(200,50%,10%,.82) 0%, hsla(200,50%,10%,.5) 60%, hsla(200,50%,10%,.25) 100%),
+    linear-gradient(to top,   hsla(200,50%,10%,.7)  0%, transparent 50%);
 }
 
 /* Background decorative shapes */
