@@ -1220,7 +1220,11 @@ em { font-style: italic; color: var(--clr-primary); }
   align-items: center;
 }
 
-.hours-text .section-title { text-align: left; }
+.hours-text .section-title {
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
 .hours-text p {
   color: var(--clr-muted);
   margin-bottom: 24px;
