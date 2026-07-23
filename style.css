@@ -938,7 +938,7 @@ em { font-style: italic; color: var(--clr-primary); }
 .gallery-section { background: var(--clr-bg); }
 
 #galleryHeading {
-  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+  font-size: clamp(1.3rem, 2.8vw, 1.8rem);
 }
 
 .gallery-filter {
