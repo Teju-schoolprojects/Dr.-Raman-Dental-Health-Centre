@@ -1174,6 +1174,10 @@ em { font-style: italic; color: var(--clr-primary); }
   border-bottom: 1px solid var(--clr-border);
 }
 
+#hoursHeading {
+  font-size: clamp(1.3rem, 2.8vw, 1.8rem);
+}
+
 .hours-inner {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
@@ -1269,6 +1273,10 @@ em { font-style: italic; color: var(--clr-primary); }
    REVIEWS
    ============================================================ */
 .reviews-section { background: var(--clr-bg); }
+
+#reviewsHeading {
+  font-size: clamp(1.3rem, 2.8vw, 1.8rem);
+}
 
 .reviews-summary {
   display: flex;
@@ -1433,7 +1441,7 @@ em { font-style: italic; color: var(--clr-primary); }
 .contact-section { background: var(--clr-bg2); }
 
 #contactHeading {
-  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+  font-size: clamp(1.3rem, 2.8vw, 1.8rem);
 }
 
 .contact-grid {
