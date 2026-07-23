@@ -191,7 +191,7 @@ em { font-style: italic; color: var(--clr-primary); }
   width: 44px;
   height: 44px;
   flex-shrink: 0;
-  filter: drop-shadow(0 4px 8px hsla(199, 89%, 48%, .4));
+  filter: drop-shadow(0 4px 12px rgba(0, 242, 254, 0.5));
 }
 .logo-icon.small { width: 36px; height: 36px; }
 
